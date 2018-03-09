@@ -64,24 +64,23 @@ body{
 	width:75%;
 }
 footer{
-	position:fixed;
+	position:absolute;
 	left:0;
 	bottom:0;
 	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.icons{
+	flex-direction: column;
 }
 .ico1{
 	width: 20px;
 	height: 20px;
-	padding:1%;
-}
-.left-bottom{
-	float:left;
-	padding: 3%;
-	background: royalblue;
-	color: #fff;
+	padding: 7px;
 }
 .right-bottom{
-	float: right;
+	flex-direction: column;
 	background: royalblue;
 	color: #fff;
 	padding:3%;
