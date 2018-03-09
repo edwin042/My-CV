@@ -39,12 +39,12 @@ body{
 	box-shadow: 1px 2px 2px grey;
 }
 .pro-skill{
-	border: 1px solid black;
 	color: #fff;
 	background:royalblue;
+	box-shadow: 1px 2px 1px white;
 }
 .rank1{
-	text-align: left;
+	text-align: right;
 	padding-left:1%;
 	width:0%;
 	background: royalblue;
@@ -54,7 +54,7 @@ body{
 	width:60%;
 }
 .rank2{
-	text-align: left;
+	text-align: right;
 	padding-left:1%;
 	width:0%;
 	background: royalblue;
@@ -69,9 +69,14 @@ footer{
 	bottom:0;
 	width: 100%;
 }
+.ico1{
+	width: 30px;
+	height: 30px;
+	padding:1%;
+}
 .left-bottom{
 	float:left;
-	padding: 3% 3% 3% 0%;
+	padding: 3%;
 	background: royalblue;
 	color: #fff;
 }
@@ -79,10 +84,9 @@ footer{
 	float: right;
 	background: royalblue;
 	color: #fff;
-	padding: 4% 0% 3% 3%;
+	padding:3%;
 }
 .right-bottom a{
 	color:#fff;
 	text-decoration: none;
-
 }
